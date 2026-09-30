@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self'; img-src 'self'; font-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<title>G2 × ExpressVPN · Partnership operations</title>
+<meta name="description" content="Bonus project by Christian Balan: a hypothetical partnership-operations case study for the G2 Esports × ExpressVPN partnership, from delivery and approvals to gaming performance analysis and upsell hypotheses.">
+<meta name="author" content="Christian Balan">
+<meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, noai, noimageai">
+<meta name="copyright" content="© 2026 Christian Balan. All rights reserved.">
+<meta name="theme-color" content="#000000">
+<link rel="canonical" href="https://g2.chrisbalan.com/projects/expressvpn/">
+<link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Christian Balan">
+<meta property="og:title" content="G2 × ExpressVPN · Partnership operations">
+<meta property="og:description" content="From partnership operations to commercial intelligence: a hypothetical case study by Christian Balan.">
+<meta property="og:url" content="https://g2.chrisbalan.com/projects/expressvpn/">
+<link rel="preload" href="../../assets/fonts/barlow-condensed-800-italic.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../../assets/fonts/inter-variable.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../../css/deck.css">
+<link rel="stylesheet" href="xvpn.css">
+<noscript><link rel="stylesheet" href="../../css/no-js.css"><link rel="stylesheet" href="no-js.css"></noscript>
+<script src="../../js/lang.js"></script>
+</head>
+<body class="project xvpn">
+<div class="progress" id="progress"></div>
+
+<main class="deck">
+  <section tabindex="-1" class="slide cover" data-title="G2 × ExpressVPN">
+    <div class="inner cover-grid">
+      <div>
+        <div class="kicker rv"><span lang="en">Week 8 report · for the Senior Partnership Manager</span><span lang="de">Report Woche 8 · für den Senior Partnership Manager</span></div>
+        <h1 class="display lockup rv"><span class="wm-g2">G2</span> <span class="x" aria-hidden="true">×</span><span class="sr-only"><span lang="en">and</span><span lang="de">und</span></span> <span class="wm-xvpn">ExpressVPN</span></h1>
+        <p class="hero-num rv"><b><span lang="en">6,764</span><span lang="de">6.764</span></b> <span><span lang="en">paid ExpressVPN sign-ups in 8 weeks</span><span lang="de">bezahlte Abschlüsse für ExpressVPN in 8 Wochen</span></span></p>
+        <ul class="kpi-row rv">
+          <li><b><span lang="en">100%</span><span lang="de">100&nbsp;%</span></b> <span><span lang="en">assets delivered · 32 of 32</span><span lang="de">Assets geliefert · 32 von 32</span></span></li>
+          <li><b><span lang="en">6.6×</span><span lang="de">6,6×</span></b> <span><span lang="en">weekly sign-ups · week 1 → peak</span><span lang="de">Abschlüsse pro Woche · Woche 1 → Spitze</span></span></li>
+          <li class="a"><b><span lang="en">72%</span><span lang="de">72&nbsp;%</span></b> <span><span lang="en">approved within 48 h · goal 80%</span><span lang="de">in 48 h freigegeben · Ziel 80&nbsp;%</span></span></li>
+        </ul>
+        <div class="cover-actions rv">
+          <button class="start-btn" type="button" data-go="next"><span lang="en">Start</span><span lang="de">Starten</span> <span aria-hidden="true">→</span></button>
+          <span class="hint-keys" aria-hidden="true"><span lang="en">← → keys · swipe</span><span lang="de">← → Tasten · wischen</span></span>
+        </div>
+      </div>
+      <div class="ops-frame rv" aria-hidden="true">
+        <div class="ops-screen">
+          <div class="ops-bar"><i></i><i></i><i></i><span>partner-ops / weekly</span><b class="ev ev-h">Hypothetical</b></div>
+          <div class="ops-label"><span lang="en">Sign-ups per week</span><span lang="de">Abschlüsse pro Woche</span></div>
+          <div class="ops-bars" id="coverBars"></div>
+          <div class="ops-foot"><span>Partner</span><span>Deliver</span><span>Measure</span><span>Expand</span></div>
+        </div>
+      </div>
+    </div>
+    <p class="disclaimer rv"><span lang="en">Self-initiated professional simulation, created for my application. The partnership itself is public; every internal operating, performance and commercial figure in this deck is <b>hypothetical</b> and is not G2 or ExpressVPN data. Not affiliated with, commissioned or endorsed by G2 Esports or ExpressVPN. All trademarks belong to their owners. Concept and design © 2026 Christian Balan, all rights reserved.</span><span lang="de">Eigeninitiative, professionelle Simulation im Rahmen meiner Bewerbung. Die Partnerschaft selbst ist öffentlich; alle internen Betriebs-, <span class="nw">Performance-</span> und Geschäftszahlen in dieser Präsentation sind <b>hypothetisch</b> und keine Daten von G2 oder ExpressVPN. Nicht verbunden mit, beauftragt oder unterstützt von G2 Esports oder ExpressVPN. Alle Marken gehören ihren Inhabern. Konzept und Design © 2026 Christian Balan, alle Rechte vorbehalten.</span></p>
+  </section>
+
+  <section tabindex="-1" class="slide dense" data-title="Where we stand" data-de-data-title="Wo wir stehen">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">Summary 1 of 2 · results</span><span lang="de">Zusammenfassung 1 von 2 · Ergebnisse</span></div>
+      <h2 class="rv"><span lang="en">7.7 million views. 6,764 customers</span><span lang="de">7,7 Millionen Aufrufe. 6.764 Kunden</span><span class="accent">.</span></h2>
+      <ol class="funnel-hero rv">
+        <li><b><span lang="en">7.7M</span><span lang="de">7,7 Mio.</span></b> <span><span lang="en">views</span><span lang="de">Aufrufe</span></span></li>
+        <li class="conv"><em><span lang="en">3.0%</span><span lang="de">3,0&nbsp;%</span></em> <span><span lang="en">clicked</span><span lang="de">klicken</span></span></li>
+        <li><b>230K</b> <span><span lang="en">clicks to ExpressVPN</span><span lang="de">Klicks zu ExpressVPN</span></span></li>
+        <li class="conv"><em><span lang="en">2.9%</span><span lang="de">2,9&nbsp;%</span></em> <span><span lang="en">bought</span><span lang="de">kaufen</span></span></li>
+        <li class="hot"><b><span lang="en">6,764</span><span lang="de">6.764</span></b> <span><span lang="en">paid sign-ups</span><span lang="de">bezahlte Abschlüsse</span></span></li>
+      </ol>
+      <p class="funnel-line rv"><span lang="en"><b>1 paid sign-up for every 1,142 views</b></span><span lang="de"><b>1 bezahlter Abschluss pro 1.142 Aufrufe</b></span></p>
+      <div class="meters-wrap rv">
+        <p class="group-label"><span lang="en">Delivery to ExpressVPN</span><span lang="de">Lieferung an ExpressVPN</span></p>
+        <ul class="meters">
+          <li class="g"><span class="ml"><span lang="en">Assets delivered · 32 of 32</span><span lang="de">Assets geliefert · 32 von 32</span></span> <b><span lang="en">100%</span><span lang="de">100&nbsp;%</span></b><span class="meter" aria-hidden="true"><i class="mw-100"></i></span></li>
+          <li class="g"><span class="ml"><span lang="en">Delivered on time</span><span lang="de">Pünktlich geliefert</span></span> <b><span lang="en">84%</span><span lang="de">84&nbsp;%</span></b><span class="meter" aria-hidden="true"><i class="mw-84"></i></span></li>
+          <li class="a"><span class="ml"><span lang="en">Approved within 48 h · <span class="goal-key">goal 80%</span></span><span lang="de">In 48 h freigegeben · <span class="goal-key">Ziel 80&nbsp;%</span></span></span> <b><span lang="en">72%</span><span lang="de">72&nbsp;%</span></b><span class="meter" aria-hidden="true"><i class="mw-72"></i><i class="goal" aria-hidden="true"></i></span></li>
+        </ul>
+      </div>
+      <p class="data-note rv"><span class="ev ev-h">Hypothetical</span> <span lang="en">Example figures from a simulated 8-week campaign. Slide 4 shows what is public and real.</span><span lang="de">Beispielzahlen aus einer simulierten 8-Wochen-Kampagne. Folie 4 zeigt, was öffentlich und echt ist.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense" data-title="Lessons &amp; decisions" data-de-data-title="Erkenntnisse &amp; Entscheidungen">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">Summary 2 of 2 · what drives sign-ups</span><span lang="de">Zusammenfassung 2 von 2 · was Abschlüsse treibt</span></div>
+      <h2 class="rv"><span lang="en">Timing and creators sell. The game doesn't</span><span lang="de">Timing und Creator verkaufen. Das Spiel nicht</span><span class="accent">.</span></h2>
+      <div class="drivers rv">
+        <div class="driver "><p class="big"><span lang="en">2.6×</span><span lang="de">2,6×</span></p><p class="dl"><span lang="en">more sign-ups per 1,000 views in finals weeks</span><span lang="de">mehr Abschlüsse pro 1.000 Aufrufe in Finals-Wochen</span></p><ul class="bars"><li class="hot"><span class="bl"><span lang="en">Finals</span><span lang="de">Finale</span></span> <span class="bar" aria-hidden="true"><i class="bw-100"></i></span> <b><span lang="en">1.44</span><span lang="de">1,44</span></b></li><li class=""><span class="bl"><span lang="en">Normal</span><span lang="de">Normal</span></span> <span class="bar" aria-hidden="true"><i class="bw-38"></i></span> <b><span lang="en">0.55</span><span lang="de">0,55</span></b></li></ul></div>
+        <div class="driver "><p class="big"><span lang="en">1.95×</span><span lang="de">1,95×</span></p><p class="dl"><span lang="en">more clicks per view from creators</span><span lang="de">mehr Klicks pro Aufruf durch Creator</span></p><ul class="bars"><li class="hot"><span class="bl">Creator</span> <span class="bar" aria-hidden="true"><i class="bw-100"></i></span> <b><span lang="en">3.61%</span><span lang="de">3,61&nbsp;%</span></b></li><li class=""><span class="bl">G2 team</span> <span class="bar" aria-hidden="true"><i class="bw-51"></i></span> <b><span lang="en">1.85%</span><span lang="de">1,85&nbsp;%</span></b></li></ul></div>
+        <div class="driver flat"><p class="big"><span lang="en">0.2 pts</span><span lang="de">0,2 Pkt.</span></p><p class="dl"><span lang="en">sign-up rate gap between games · no real difference</span><span lang="de">Abstand der Abschlussrate zwischen Spielen · kein echter Unterschied</span></p><ul class="bars"><li class=""><span class="bl">LoL</span> <span class="bar" aria-hidden="true"><i class="bw-100"></i></span> <b><span lang="en">2.8%</span><span lang="de">2,8&nbsp;%</span></b></li><li class=""><span class="bl">VALORANT</span> <span class="bar" aria-hidden="true"><i class="bw-97"></i></span> <b><span lang="en">2.7%</span><span lang="de">2,7&nbsp;%</span></b></li><li class=""><span class="bl">CS2</span> <span class="bar" aria-hidden="true"><i class="bw-93"></i></span> <b><span lang="en">2.6%</span><span lang="de">2,6&nbsp;%</span></b></li></ul></div>
+      </div>
+      <div class="asks-wrap rv">
+        <p class="group-label"><span lang="en">Your call</span><span lang="de">Deine Entscheidung</span></p>
+        <ol class="asks">
+          <li><b><span lang="en">Approve 2 low-cost tests</span><span lang="de">2 günstige Tests freigeben</span></b> <small><span lang="en">by week 10</span><span lang="de">bis Woche 10</span></small></li>
+          <li><b><span lang="en">24 h approvals in finals weeks</span><span lang="de">24-h-Freigaben in Finals-Wochen</span></b> <small><span lang="en">ask ExpressVPN · before next season</span><span lang="de">bei ExpressVPN anfragen · vor der Saison</span></small></li>
+          <li><b><span lang="en">Pre-approved speed claims</span><span lang="de">Vorab freigegebene Tempo-Aussagen</span></b> <small><span lang="en">I get it signed · Fri week 9</span><span lang="de">ich hole die Freigabe · Fr. Woche 9</span></small></li>
+        </ol>
+      </div>
+      <p class="data-note rv"><span class="ev ev-h">Hypothetical</span> <span lang="en">Example figures from a simulated 8-week campaign. Slide 4 shows what is public and real.</span><span lang="de">Beispielzahlen aus einer simulierten 8-Wochen-Kampagne. Folie 4 zeigt, was öffentlich und echt ist.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense" data-title="Public vs. internal" data-de-data-title="Öffentlich vs. intern">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">04 · Detail · what is real, and what is an example</span><span lang="de">04 · Detail · was echt ist und was ein Beispiel</span></div>
+      <h2 class="rv"><span lang="en">Start with what can be proven</span><span lang="de">Mit dem Belegbaren anfangen</span><span class="accent">.</span></h2>
+      <div class="facts-grid rv">
+        <div class="card">
+          <span class="num"><span class="ev ev-v">Verified</span> <span lang="en">Public partnership facts</span><span lang="de">Öffentliche Fakten zur Partnerschaft</span></span>
+          <ul class="facts">
+            <li><b>12 Mar 2026</b><span lang="en">ExpressVPN announces multiyear esports partnerships: G2 becomes <b>Official VPN Partner</b>, alongside the LEC (renewed), VCT EMEA, VCT Americas and Method.</span><span lang="de">ExpressVPN kündigt mehrjährige <span class="nw">Esports-Partnerschaften</span> an: G2 wird <b>Official VPN Partner</b>, neben LEC (verlängert), VCT EMEA, VCT Americas und Method.</span><small>ExpressVPN blog</small></li>
+            <li><b><span lang="en">Message</span><span lang="de">Botschaft</span></b><span lang="en">G2 COO Sabrina Ratih: “Our players compete on milliseconds, and our fans live online.” The story is speed, security and reliability.</span><span lang="de"><span class="nw">G2-COO</span> Sabrina Ratih: „Our players compete on milliseconds, and our fans live online.“ Die Geschichte: Tempo, Sicherheit, Zuverlässigkeit.</span><small>ExpressVPN blog</small></li>
+            <li><b><span lang="en">Launch offer</span><span lang="de">Launch-Angebot</span></b><span lang="en">Discounted plans for the G2 community (up to 80% off at launch) plus a <b>signed G2 jersey giveaway</b>.</span><span lang="de">Rabattierte Pläne für die <span class="nw">G2-Community</span> (zum Start bis zu 80&nbsp;%) plus <b>Verlosung eines signierten <span class="nw">G2-Trikots</span></b>.</span><small>ExpressVPN blog · G2 landing page</small></li>
+            <li><b><span lang="en">Landing page</span><span lang="de">Landingpage</span></b><span lang="en">A G2 page, “recommended by G2 and their pros”, promising lower ping, no slowdowns from internet providers, protection against attacks while streaming, and safe connections when travelling to bootcamps and tournaments.</span><span lang="de">Eine <span class="nw">G2-Seite</span>, „recommended by G2 and their pros“: niedrigerer Ping, keine Drosselung durch den Internetanbieter, Schutz vor Angriffen beim Streamen und sichere Verbindungen auf Bootcamp- und Turnierreisen.</span><small>expressvpn.com/gaming/g2-esports</small></li>
+            <li><b><span lang="en">Titles</span><span lang="de">Titel</span></b><span lang="en">League of Legends, VALORANT, CS2, Rainbow Six Siege, Rocket League, Fortnite, Apex Legends referenced on the page; exclusive drops and rewards promised “throughout the year”.</span><span lang="de">League of Legends, VALORANT, CS2, Rainbow Six Siege, Rocket League, Fortnite, Apex Legends auf der Seite genannt; exklusive Drops und Rewards „throughout the year“ angekündigt.</span><small>ExpressVPN blog · G2 landing page</small></li>
+          </ul>
+        </div>
+        <div class="card gap-card">
+          <span class="num"><span class="ev ev-h">Hypothetical</span> <span lang="en">The information gap</span><span lang="de">Die Informationslücke</span></span>
+          <p><span lang="en">The numbers a partnerships team works with every day are confidential: they sit in the contract, the delivery tracker and the tracking dashboards. So in this deck they are <b>realistic examples I made up, clearly labelled</b>:</span><span lang="de">Die Zahlen, mit denen ein <span class="nw">Partnerships-Team</span> täglich arbeitet, sind vertraulich: Sie stehen im Vertrag, im <span class="nw">Liefer-Tracker</span> und in den <span class="nw">Tracking-Dashboards.</span> Hier sind es daher <b>realistische, selbst erstellte Beispiele, klar gekennzeichnet</b>:</span></p>
+          <ul class="gap-list">
+            <li><span lang="en">Contract value &amp; term</span><span lang="de">Vertragswert &amp; Laufzeit</span></li>
+            <li><span lang="en">Deliverable count</span><span lang="de">Anzahl Deliverables</span></li>
+            <li><span lang="en">Internal deadlines</span><span lang="de">Interne Deadlines</span></li>
+            <li><span lang="en">Approval deadlines</span><span lang="de">Freigabefristen</span></li>
+            <li><span lang="en">Views of G2 content</span><span lang="de">Aufrufe der <span class="nw">G2-Inhalte</span></span></li>
+            <li><span lang="en">Clicks &amp; sign-ups</span><span lang="de">Klicks &amp; Abschlüsse</span></li>
+            <li><span lang="en">Tracking links &amp; promo codes</span><span lang="de"><span class="nw">Tracking-Links</span> &amp; Promocodes</span></li>
+            <li><span lang="en">Revenue &amp; return on spend</span><span lang="de">Umsatz &amp; Rendite</span></li>
+            <li><span lang="en">Production cost &amp; time</span><span lang="de">Produktionskosten &amp; -zeit</span></li>
+            <li><span lang="en">Team workload</span><span lang="de">Auslastung im Team</span></li>
+          </ul>
+          <p class="day-one"><b><span lang="en">Day-one ask:</span><span lang="de">Frage an Tag eins:</span></b> <span lang="en">access to the contract, the delivery tracker and the tracking dashboard, so these examples can be replaced with real numbers.</span><span lang="de">Zugang zu Vertrag, <span class="nw">Liefer-Tracker</span> und <span class="nw">Tracking-Dashboard</span> – damit die Beispiele durch echte Zahlen ersetzt werden.</span></p>
+        </div>
+      </div>
+      <p class="takeaway rv"><span lang="en">The public facts are real. Everything else is a realistic example, and labelled as one.</span><span lang="de">Die öffentlichen Fakten sind echt. Alles andere ist ein realistisches Beispiel – und als solches gekennzeichnet.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense" data-title="My role" data-de-data-title="Meine Rolle">
+    <div class="inner">
+      <div class="kicker rv"><span lang="en">05 · Detail · how I run the partnership</span><span lang="de">05 · Detail · wie ich die Partnerschaft steuere</span></div>
+      <h2 class="rv"><span lang="en">Five parts of one job</span><span lang="de">Fünf Teile eines Jobs</span><span class="accent">.</span></h2>
+      <p class="sub rv"><span lang="en">I run the partnership day to day and give my manager clear analysis. Pick a part to see an example from an 8-week campaign (all figures <span class="ev ev-h">Hypothetical</span>).</span><span lang="de">Ich steuere die Partnerschaft im Tagesgeschäft und liefere meinem Vorgesetzten klare Analysen. Einen Teil auswählen, um ein Beispiel aus einer <span class="nw">8-Wochen-Kampagne</span> zu sehen (alle Zahlen <span class="ev ev-h">Hypothetical</span>).</span></p>
+      <div class="pillars rv" id="pillars" data-pillar="1">
+        <div class="pillar-tabs" role="group" aria-label="Pillars" data-de-aria-label="Säulen">
+          <button type="button" class="pillar-tab" data-pillar="1" aria-pressed="true"><span class="n">01</span>Partner</button>
+          <button type="button" class="pillar-tab" data-pillar="2" aria-pressed="false"><span class="n">02</span>Delivery</button>
+          <button type="button" class="pillar-tab" data-pillar="3" aria-pressed="false"><span class="n">03</span>Approvals</button>
+          <button type="button" class="pillar-tab" data-pillar="4" aria-pressed="false"><span class="n">04</span><span lang="en">Results</span><span lang="de">Ergebnisse</span></button>
+          <button type="button" class="pillar-tab" data-pillar="5" aria-pressed="false"><span class="n">05</span>Commercial</button>
+        </div>
+        <div class="pillar-details" aria-live="polite">
+          <div class="pillar-detail card hl" data-for="1">
+            <div class="pd-text"><h3><span lang="en">Partner · one voice to ExpressVPN, one plan inside G2</span><span lang="de">Partner · eine Stimme zu ExpressVPN, ein Plan intern</span></h3><p><span lang="en">A weekly call with ExpressVPN, a monthly review and a written log of every decision. Inside G2 I coordinate social, content, creative, marketing, players, creators, production and legal, and only escalate what needs a senior decision.</span><span lang="de">Ein wöchentlicher Call mit ExpressVPN, ein monatliches Review und ein Protokoll aller Entscheidungen. Intern koordiniere ich Social, Content, Creative, Marketing, Spieler, Creator, Produktion und Legal und eskaliere nur, was eine Entscheidung von oben braucht.</span></p></div>
+            <ul class="kpis"><li><b><span lang="en">89%</span><span lang="de">89&nbsp;%</span></b><span lang="en">of to-dos closed (57 of 64)</span><span lang="de">der Aufgaben erledigt (57 von 64)</span></li><li><b>19 h</b><span lang="en">typical reply time from ExpressVPN (G2: 4 h)</span><span lang="de">übliche Antwortzeit von ExpressVPN (G2: 4 h)</span></li><li><b>3</b><span lang="en">issues escalated to my manager</span><span lang="de">Themen an den Vorgesetzten eskaliert</span></li><li><b>7</b><span lang="en">points still open, 2 of them with ExpressVPN</span><span lang="de">Punkte noch offen, 2 davon bei ExpressVPN</span></li></ul>
+          </div>
+          <div class="pillar-detail card hl" data-for="2">
+            <div class="pd-text"><h3><span lang="en">Delivery · everything promised goes live, with proof</span><span lang="de">Delivery · alles Zugesagte geht live, mit Nachweis</span></h3><p><span lang="en">One tracker follows each asset from brief to proof that it went live. Problems are written down, not hidden: a creator had to reschedule, legal paused a finals video, and one tracking link broke.</span><span lang="de">Ein Tracker begleitet jedes Asset vom Briefing bis zum Nachweis, dass es live ist. Probleme werden notiert, nicht versteckt: Ein Creator musste verschieben, Legal stoppte ein <span class="nw">Finals-Video</span> und ein <span class="nw">Tracking-Link</span> war defekt.</span></p></div>
+            <ul class="kpis"><li><b>32 / 32</b><span lang="en">promised assets went live</span><span lang="de">zugesagte Assets gingen live</span></li><li><b><span lang="en">84%</span><span lang="de">84&nbsp;%</span></b><span lang="en">on time; 5 were about 2 days late</span><span lang="de">pünktlich; 5 kamen rund 2 Tage später</span></li><li><b><span lang="en">1 in 3</span><span lang="de">1 von 3</span></b><span lang="en">needed at least one round of changes</span><span lang="de">brauchten mindestens eine Korrekturrunde</span></li><li><b>30 / 32</b><span lang="en">proofs of delivery collected</span><span lang="de">Liefernachweise gesammelt</span></li></ul>
+          </div>
+          <div class="pillar-detail card hl" data-for="3">
+            <div class="pd-text"><h3><span lang="en">Approvals · where campaigns usually slip</span><span lang="de">Freigaben · wo Kampagnen meist ins Rutschen kommen</span></h3><p><span lang="en">Every asset goes brief → G2 review → ExpressVPN → changes → live. I check each step against the agreed 48-hour reply time and flag risky claims such as “no lag” before they reach legal.</span><span lang="de">Jedes Asset läuft Briefing → Review bei G2 → ExpressVPN → Korrekturen → live. Ich prüfe jeden Schritt gegen die vereinbarte Antwortzeit von 48 Stunden und markiere heikle Aussagen wie „kein Lag“, bevor sie bei Legal landen.</span></p></div>
+            <ul class="kpis"><li><b><span lang="en">2 in 3</span><span lang="de">2 von 3</span></b><span lang="en">approved at the first try</span><span lang="de">im ersten Anlauf freigegeben</span></li><li><b><span lang="en">72%</span><span lang="de">72&nbsp;%</span></b><span lang="en">answered within 48 hours (target: 80%)</span><span lang="de">innerhalb von 48 Stunden beantwortet (Ziel: 80&nbsp;%)</span></li><li><b><span lang="en">2 days</span><span lang="de">2 Tage</span></b><span lang="en">typical time to approval</span><span lang="de">übliche Dauer bis zur Freigabe</span></li><li><b><span lang="en">6 days</span><span lang="de">6 Tage</span></b><span lang="en">longest wait: legal check on a finals video</span><span lang="de">längste Wartezeit: <span class="nw">Legal-Prüfung</span> eines <span class="nw">Finals-Videos</span></span></li></ul>
+          </div>
+          <div class="pillar-detail card hl" data-for="4">
+            <div class="pd-text"><h3><span lang="en">Results · simple definitions, checked every week</span><span lang="de">Ergebnisse · einfache Definitionen, jede Woche geprüft</span></h3><p><span lang="en"><b>Engagement rate:</b> share of views that got a like, comment or share. <b>Click rate:</b> share of views that led to a click. <b>Sign-up rate:</b> share of clicks that ended in a paid ExpressVPN sign-up.</span><span lang="de"><b>Engagement Rate:</b> Anteil der Aufrufe mit Like, Kommentar oder Share. <b>Klickrate:</b> Anteil der Aufrufe mit Klick. <b>Abschlussrate:</b> Anteil der Klicks, die zu einem bezahlten <span class="nw">ExpressVPN-Abo</span> führten.</span></p></div>
+            <ul class="kpis"><li><b><span lang="en">7.7M</span><span lang="de">7,7 Mio.</span></b><span lang="en">views, seen by 5.6M people</span><span lang="de">Aufrufe, gesehen von 5,6 Mio. Menschen</span></li><li><b><span lang="en">4.7%</span><span lang="de">4,7&nbsp;%</span></b><span lang="en">engagement rate</span><span lang="de">Engagement Rate</span></li><li><b><span lang="en">3.0%</span><span lang="de">3,0&nbsp;%</span></b><span lang="en">click rate: about 230K clicks</span><span lang="de">Klickrate: rund 230 Tsd. Klicks</span></li><li><b><span lang="en">6,764</span><span lang="de">6.764</span></b><span lang="en">sign-ups: about 3 in every 100 clicks</span><span lang="de">Abschlüsse: rund 3 von 100 Klicks</span></li></ul>
+          </div>
+          <div class="pillar-detail card hl" data-for="5">
+            <div class="pd-text"><h3><span lang="en">Commercial · preparing the next conversation</span><span lang="de">Commercial · das nächste Gespräch vorbereiten</span></h3><p><span lang="en">Selling is not my job; preparing is. I show which content worked better, how sure we can be, and which small, cheap test would give ExpressVPN real evidence before the next deal.</span><span lang="de">Verkaufen ist nicht meine Aufgabe, Vorbereiten schon. Ich zeige, welcher Content besser lief, wie sicher das ist und welcher kleine, günstige Test ExpressVPN vor dem nächsten Deal echte Belege liefert.</span></p></div>
+            <ul class="kpis"><li><b>3</b><span lang="en">ideas for extra business, found in the data</span><span lang="de">Ideen für zusätzliches Geschäft, aus den Daten</span></li><li><b>3</b><span lang="en">tests to check them</span><span lang="de">Tests, um sie zu prüfen</span></li><li><b>0</b><span lang="en">proven yet, and that is on purpose</span><span lang="de">bisher bewiesen – bewusst</span></li><li><b>1</b><span lang="en">renewal meeting prepared for my manager</span><span lang="de">Verlängerungsgespräch für den Vorgesetzten vorbereitet</span></li></ul>
+          </div>
+        </div>
+      </div>
+      <p class="takeaway rv"><span lang="en">Good day-to-day work creates the data. Good data earns the next deal.</span><span lang="de">Gute Arbeit im Tagesgeschäft erzeugt die Daten. Gute Daten verdienen sich den nächsten Deal.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense tight" data-title="Executive dashboard" data-de-data-title="Executive Dashboard">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">06 · Detail · the 8-week campaign in numbers</span><span lang="de">06 · Detail · die <span class="nw">8-Wochen-Kampagne</span> in Zahlen</span></div>
+      <h2 class="rv"><span lang="en">Everything delivered. Best results at the finals</span><span lang="de">Alles geliefert. Beste Ergebnisse im Finale</span><span class="accent">.</span></h2>
+      <ul class="kpi-cards rv">
+        <li><span><span lang="en">People reached</span><span lang="de">Erreichte Menschen</span></span><b><span lang="en">5.6M</span><span lang="de">5,6 Mio.</span></b></li>
+        <li><span><span lang="en">Views</span><span lang="de">Aufrufe</span></span><b><span lang="en">7.7M</span><span lang="de">7,7 Mio.</span></b></li>
+        <li><span><span lang="en">Engagement rate</span><span lang="de">Engagement Rate</span></span><b><span lang="en">4.7%</span><span lang="de">4,7&nbsp;%</span></b></li>
+        <li><span><span lang="en">Click rate</span><span lang="de">Klickrate</span></span><b><span lang="en">3.0%</span><span lang="de">3,0&nbsp;%</span></b></li>
+        <li class="hl"><span><span lang="en">Sign-ups</span><span lang="de">Abschlüsse</span></span><b><span lang="en">6,764</span><span lang="de">6.764</span></b></li>
+        <li class="hl"><span><span lang="en">Sign-up rate</span><span lang="de">Abschlussrate</span></span><b><span lang="en">2.9%</span><span lang="de">2,9&nbsp;%</span></b></li>
+        <li><span><span lang="en">Delivered</span><span lang="de">Geliefert</span></span><b>32 / 32</b></li>
+        <li><span><span lang="en">On time</span><span lang="de">Pünktlich</span></span><b><span lang="en">84%</span><span lang="de">84&nbsp;%</span></b></li>
+        <li class="warn"><span><span lang="en">Approved in 48 h</span><span lang="de">In 48 h freigegeben</span></span><b><span lang="en">72%</span><span lang="de">72&nbsp;%</span></b></li>
+        <li class="health"><span><span lang="en">Overall status</span><span lang="de">Gesamtstatus</span></span><b><span lang="en">Green</span><span lang="de">Grün</span></b><small><span lang="en">except approvals (amber)</span><span lang="de">außer Freigaben (gelb)</span></small></li>
+      </ul>
+      <div class="dash-grid rv">
+        <figure class="card chart-card">
+          <figcaption><span class="num"><span lang="en">Views per week · in thousands</span><span lang="de">Aufrufe pro Woche · in Tausend</span></span></figcaption>
+          <div class="chart" id="chartImp" role="img" aria-label="Views per week, week 1 to 8: rising from 0.6 million to a peak of 1.4 million in week 6 (finals), then 0.9 million in week 8." data-de-aria-label="Aufrufe pro Woche, Woche 1 bis 8: Anstieg von 0,6 Mio. auf den Höchstwert 1,4 Mio. in Woche 6 (Finale), danach 0,9 Mio. in Woche 8."></div>
+        </figure>
+        <figure class="card chart-card">
+          <figcaption><span class="num"><span lang="en">Sign-ups per week · sign-up rate below</span><span lang="de">Abschlüsse pro Woche · Abschlussrate darunter</span></span></figcaption>
+          <div class="chart" id="chartConv" role="img" aria-label="Sign-ups per week, week 1 to 8: from 252 to a peak of 1,673 in week 6; the sign-up rate rises from 2.5% to 3.2%." data-de-aria-label="Abschlüsse pro Woche, Woche 1 bis 8: von 252 auf den Höchstwert 1.673 in Woche 6; die Abschlussrate steigt von 2,5&nbsp;% auf 3,2&nbsp;%."></div>
+        </figure>
+        <div class="card funnel-card">
+          <span class="num"><span lang="en">From views to sign-ups</span><span lang="de">Von Aufrufen zu Abschlüssen</span></span>
+          <ol class="funnel" id="funnel">
+            <li data-v="7724000"><span lang="en">Views</span><span lang="de">Aufrufe</span><b><span lang="en">7.7M</span><span lang="de">7,7 Mio.</span></b></li>
+            <li data-v="364170"><span lang="en">Likes, comments, shares</span><span lang="de">Likes, Kommentare, Shares</span><b><span lang="en">364K</span><span lang="de">364 Tsd.</span></b></li>
+            <li data-v="229660"><span lang="en">Clicks</span><span lang="de">Klicks</span><b><span lang="en">230K</span><span lang="de">230 Tsd.</span></b></li>
+            <li data-v="6764"><span lang="en">Sign-ups</span><span lang="de">Abschlüsse</span><b><span lang="en">6,764</span><span lang="de">6.764</span></b></li>
+          </ol>
+          <div class="risk-opp">
+            <p><b class="tag-risk"><span lang="en">Key risk</span><span lang="de">Hauptrisiko</span></b><span lang="en">In finals week, only half of the approvals came back within 48 hours, just when it mattered most.</span><span lang="de">In der <span class="nw">Finals-Woche</span> kam nur die Hälfte der Freigaben binnen 48 Stunden zurück – genau dann, als es am meisten zählte.</span></p>
+            <p><b class="tag-opp"><span lang="en">Key opportunity</span><span lang="de">Größte Chance</span></b><span lang="en">Big match weeks brought about twice as many sign-ups per 1,000 views as normal weeks.</span><span lang="de">Große Matchwochen brachten etwa doppelt so viele Abschlüsse pro 1.000 Aufrufe wie normale Wochen.</span></p>
+          </div>
+        </div>
+      </div>
+      <p class="data-note rv"><span class="ev ev-h">Hypothetical</span> <span class="ev ev-d">Derived</span> <span lang="en">Based on 32 campaign posts and streams over 8 weeks in 6 games. The best single one: a creator’s VALORANT finals stream in week 6, with 812 sign-ups.</span><span lang="de">Basis: 32 Posts und Streams über 8 Wochen in 6 Spielen. Der stärkste einzelne: der <span class="nw">VALORANT-Finals-Stream</span> eines Creators in Woche 6 mit 812 Abschlüssen.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense tight" data-title="Operations" data-de-data-title="Operations">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">07 · Detail · delivery, approvals, risks</span><span lang="de">07 · Detail · Lieferung, Freigaben, Risiken</span></div>
+      <h2 class="rv"><span lang="en">Delays start with approvals, not production</span><span lang="de">Verspätungen beginnen bei Freigaben, nicht in der Produktion</span><span class="accent">.</span></h2>
+      <div class="ops-grid rv">
+        <div class="card">
+          <span class="num"><span class="ev ev-h">Hypothetical</span> <span lang="en">What happened to the 32 assets</span><span lang="de">Was mit den 32 Assets passierte</span></span>
+          <ol class="appr">
+            <li><b>32</b><span lang="en">briefed, produced and sent to ExpressVPN</span><span lang="de">gebrieft, produziert und an ExpressVPN geschickt</span></li>
+            <li><b>21</b><span lang="en">approved at the first try (2 in 3)</span><span lang="de">im ersten Anlauf freigegeben (2 von 3)</span></li>
+            <li><b>11</b><span lang="en">needed changes, then approved in round 2 or 3</span><span lang="de">brauchten Korrekturen, dann in Runde 2 oder 3 freigegeben</span></li>
+            <li><b>1</b><span lang="en">replaced: the giveaway rules had to change</span><span lang="de">ersetzt: die Gewinnspielregeln mussten geändert werden</span></li>
+            <li><b>30</b><span lang="en">with proof of delivery; 2 still being collected</span><span lang="de">mit Liefernachweis; 2 werden noch gesammelt</span></li>
+          </ol>
+          <figure class="sla">
+            <figcaption><span lang="en">Share answered within 48 hours, per week (target: 80%)</span><span lang="de">Anteil binnen 48 Stunden beantwortet, pro Woche (Ziel: 80&nbsp;%)</span></figcaption>
+            <div class="chart" id="chartSla" role="img" aria-label="Share of approvals answered within 48 hours, by week: 50, 50, 75, 75, 75, 50, 100, 100 percent against an 80 percent target." data-de-aria-label="Anteil der Freigaben binnen 48 Stunden, pro Woche: 50, 50, 75, 75, 75, 50, 100, 100 Prozent bei einem Ziel von 80 Prozent."></div>
+          </figure>
+        </div>
+        <div class="card risk-card">
+          <span class="num"><span class="ev ev-h">Hypothetical</span> <span lang="en">Risk list · score = how likely × how serious (each 1–5)</span><span lang="de">Risikoliste · Wert = wie wahrscheinlich × wie ernst (je 1–5)</span></span>
+          <table class="risks">
+            <thead><tr><th scope="col"><span lang="en">Risk</span><span lang="de">Risiko</span></th><th scope="col"><span lang="en">Score</span><span lang="de">Wert</span></th><th scope="col"><span lang="en">What we do about it</span><span lang="de">Was wir tun</span></th><th scope="col">Status</th></tr></thead>
+            <tbody>
+              <tr><th scope="row"><span lang="en">ExpressVPN replies late</span><span lang="de">ExpressVPN antwortet spät</span></th><td><i class="sc s-hi">16</i></td><td><span lang="en">48-hour reply target, fast track for finals</span><span lang="de"><span class="nw">48-Stunden-Ziel,</span> Schnellspur fürs Finale</span></td><td><span class="st st-watch"><span lang="en">Watch</span><span lang="de">Beobachten</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">Legal check on speed claims</span><span lang="de">Legal prüft Aussagen zu Tempo</span></th><td><i class="sc s-hi">12</i></td><td><span lang="en">A list of claims approved in advance</span><span lang="de">Liste vorab freigegebener Aussagen</span></td><td><span class="st st-open"><span lang="en">Open</span><span lang="de">Offen</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">Broken tracking link</span><span lang="de">Defekter <span class="nw">Tracking-Link</span></span></th><td><i class="sc s-md">10</i></td><td><span lang="en">Test every link before launch</span><span lang="de">Jeden Link vor dem Start testen</span></td><td><span class="st st-done"><span lang="en">Fixed in 3 days</span><span lang="de">In 3 Tagen behoben</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">Match schedule changes</span><span lang="de">Spielplan ändert sich</span></th><td><i class="sc s-md">9</i></td><td><span lang="en">Two possible posting times per match</span><span lang="de">Zwei mögliche Posting-Zeiten pro Match</span></td><td><span class="st st-watch"><span lang="en">Watch</span><span lang="de">Beobachten</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">Players not available</span><span lang="de">Spieler nicht verfügbar</span></th><td><i class="sc s-md">9</i></td><td><span lang="en">Film before the playoffs</span><span lang="de">Vor den Playoffs drehen</span></td><td><span class="st st-watch"><span lang="en">Watch</span><span lang="de">Beobachten</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">Wrong offer on the sign-up page</span><span lang="de">Falsches Angebot auf der Anmeldeseite</span></th><td><i class="sc s-md">8</i></td><td><span lang="en">Check the page for each country weekly</span><span lang="de">Seite je Land wöchentlich prüfen</span></td><td><span class="st st-open"><span lang="en">Open</span><span lang="de">Offen</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">A creator cancels</span><span lang="de">Ein Creator sagt ab</span></th><td><i class="sc s-lo">6</i></td><td><span lang="en">Backup creator booked</span><span lang="de"><span class="nw">Ersatz-Creator</span> gebucht</span></td><td><span class="st st-done"><span lang="en">Solved in 4 days</span><span lang="de">In 4 Tagen gelöst</span></span></td></tr>
+              <tr><th scope="row"><span lang="en">Production runs late</span><span lang="de">Produktion verspätet sich</span></th><td><i class="sc s-lo">6</i></td><td><span lang="en">Buffer days in every brief</span><span lang="de">Pufferzeit in jedem Briefing</span></td><td><span class="st st-done"><span lang="en">Closed</span><span lang="de">Geschlossen</span></span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <p class="takeaway rv"><span lang="en">4 of the 5 late assets were waiting for ExpressVPN or legal. Faster approvals fix this, not faster production.</span><span lang="de">4 der 5 verspäteten Assets warteten auf ExpressVPN oder Legal. Schnellere Freigaben lösen das, nicht schnellere Produktion.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense" data-title="EDA map" data-de-data-title="EDA-Map">
+    <div class="inner">
+      <div class="kicker rv"><span lang="en">08 · Detail · how I analysed the data</span><span lang="de">08 · Detail · wie ich die Daten analysiert habe</span></div>
+      <h2 class="rv"><span lang="en">The obvious explanation was not the right one</span><span lang="de">Die naheliegende Erklärung war nicht die richtige</span><span class="accent">.</span></h2>
+      <p class="sub rv"><span lang="en">Nine steps from raw numbers to a business recommendation. Click through them.</span><span lang="de">Neun Schritte von den Rohdaten zur Empfehlung fürs Geschäft. Einfach durchklicken.</span></p>
+      <div class="flow eda rv" id="eda" data-step="1">
+        <div class="flow-steps" role="group" aria-label="EDA steps" data-de-aria-label="EDA-Schritte">
+          <button type="button" class="flow-step" data-step="1" aria-pressed="true"><span class="n">01</span><span lang="en">Data</span><span lang="de">Daten</span></button>
+          <button type="button" class="flow-step" data-step="2" aria-pressed="false"><span class="n">02</span><span lang="en">Quality</span><span lang="de">Qualität</span></button>
+          <button type="button" class="flow-step" data-step="3" aria-pressed="false"><span class="n">03</span><span lang="en">Groups</span><span lang="de">Gruppen</span></button>
+          <button type="button" class="flow-step" data-step="4" aria-pressed="false"><span class="n">04</span><span lang="en">Pattern</span><span lang="de">Muster</span></button>
+          <button type="button" class="flow-step" data-step="5" aria-pressed="false"><span class="n">05</span><span lang="en">Compare</span><span lang="de">Vergleich</span></button>
+          <button type="button" class="flow-step" data-step="6" aria-pressed="false"><span class="n">06</span><span lang="en">Question</span><span lang="de">Frage</span></button>
+          <button type="button" class="flow-step" data-step="7" aria-pressed="false"><span class="n">07</span><span lang="en">Check</span><span lang="de">Prüfung</span></button>
+          <button type="button" class="flow-step" data-step="8" aria-pressed="false"><span class="n">08</span><span lang="en">Result</span><span lang="de">Ergebnis</span></button>
+          <button type="button" class="flow-step" data-step="9" aria-pressed="false"><span class="n">09</span><span lang="en">Meaning</span><span lang="de">Bedeutung</span></button>
+        </div>
+        <div class="flow-details" aria-live="polite">
+          <div class="flow-detail card hl" data-for="1"><h3><span lang="en">Data</span><span lang="de">Daten</span></h3><p><span lang="en">32 rows, one per post or stream: 8 weeks, 6 games, 5 formats, 5 platforms. The mix is uneven (VALORANT and League of Legends have 8 rows each, Fortnite and Rocket League 2), so the results show a direction, not proof.</span><span lang="de">32 Zeilen, eine pro Post oder Stream: 8 Wochen, 6 Spiele, 5 Formate, 5 Plattformen. Die Verteilung ist ungleich (VALORANT und League of Legends je 8 Zeilen, Fortnite und Rocket League je 2) – die Ergebnisse zeigen eine Richtung, keinen Beweis.</span></p></div>
+          <div class="flow-detail card hl" data-for="2"><h3><span lang="en">Data quality</span><span lang="de">Datenqualität</span></h3><p><span lang="en">Nothing is missing and every row adds up: never more people than views, never more sign-ups than clicks. One problem: a CS2 Instagram post in week 2 ran with a broken tracking link for three days, so its sign-ups are probably undercounted.</span><span lang="de">Nichts fehlt, und jede Zeile geht auf: nie mehr Menschen als Aufrufe, nie mehr Abschlüsse als Klicks. Ein Problem: Ein <span class="nw">CS2-Instagram-Post</span> in Woche 2 lief drei Tage mit defektem <span class="nw">Tracking-Link,</span> seine Abschlüsse sind also wohl zu niedrig erfasst.</span></p></div>
+          <div class="flow-detail card hl" data-for="3"><h3><span lang="en">Groups</span><span lang="de">Gruppen</span></h3><p><span lang="en">I grouped the rows by game, by moment in the season (normal week, match day, playoffs, finals, after the finals), by who made the content (creator, player, G2 team) and by platform.</span><span lang="de">Ich habe die Zeilen gruppiert: nach Spiel, nach Moment der Saison (normale Woche, Matchday, Playoffs, Finale, nach dem Finale), nach Absender (Creator, Spieler, <span class="nw">G2-Team)</span> und nach Plattform.</span></p></div>
+          <div class="flow-detail card hl" data-for="4"><h3><span lang="en">Pattern</span><span lang="de">Muster</span></h3><p><span lang="en">The sign-up rate rose every week, from 2.5% in week 1 to 3.2% at the finals in week 6, then settled at 2.9%. Likes and clicks moved the same way.</span><span lang="de">Die Abschlussrate stieg jede Woche, von 2,5&nbsp;% in Woche 1 auf 3,2&nbsp;% im Finale in Woche 6, und pendelte sich dann bei 2,9&nbsp;% ein. Likes und Klicks bewegten sich genauso.</span></p></div>
+          <div class="flow-detail card hl" data-for="5"><h3><span lang="en">Comparison</span><span lang="de">Vergleich</span></h3><p><span lang="en">Big match weeks beat normal weeks: 3.1% of clicks became sign-ups, against 2.5%. VALORANT stood out: 37% of the views, but 53% of the sign-ups.</span><span lang="de">Große Matchwochen schlugen normale Wochen: 3,1&nbsp;% der Klicks wurden zu Abschlüssen, statt 2,5&nbsp;%. VALORANT fiel auf: 37&nbsp;% der Aufrufe, aber 53&nbsp;% der Abschlüsse.</span></p></div>
+          <div class="flow-detail card hl" data-for="6"><h3><span lang="en">Question</span><span lang="de">Frage</span></h3><p><span lang="en">Three possible explanations: is it VALORANT itself, the big match moments, or the creator content that runs during those moments?</span><span lang="de">Drei mögliche Erklärungen: Liegt es an VALORANT selbst, an den großen Matchmomenten oder an den <span class="nw">Creator-Inhalten,</span> die in diesen Momenten laufen?</span></p></div>
+          <div class="flow-detail card hl" data-for="7"><h3><span lang="en">Check</span><span lang="de">Prüfung</span></h3><p><span lang="en">Compare like with like: games only on the same kind of match day, and moments only within League of Legends, the one game with both normal weeks and finals.</span><span lang="de">Gleiches mit Gleichem vergleichen: Spiele nur an vergleichbaren Matchdays, Momente nur innerhalb von League of Legends – dem einzigen Spiel mit normalen Wochen und Finale.</span></p></div>
+          <div class="flow-detail card hl" data-for="8"><h3><span lang="en">Result</span><span lang="de">Ergebnis</span></h3><p><span lang="en">Every VALORANT post ran in a big match week. On comparable match days all games look alike (around 2.6–2.8%). Within League of Legends the finals still win (3.3% vs 2.6%). So the moment matters; the game alone does not, at least not yet.</span><span lang="de">Jeder <span class="nw">VALORANT-Post</span> lief in einer großen Matchwoche. An vergleichbaren Matchdays liegen alle Spiele gleichauf (rund 2,6–2,8&nbsp;%). Innerhalb von League of Legends gewinnt das Finale weiterhin (3,3&nbsp;% vs. 2,6&nbsp;%). Der Moment zählt also, das Spiel allein (noch) nicht.</span></p></div>
+          <div class="flow-detail card hl" data-for="9"><h3><span lang="en">What it means for the business</span><span lang="de">Was es fürs Geschäft bedeutet</span></h3><p><span lang="en">Don’t sell a “VALORANT package” based on this. Offering big match moments is better supported; a game-specific package needs its own test first.</span><span lang="de">Auf dieser Basis kein <span class="nw">„VALORANT-Paket“</span> verkaufen. Große Matchmomente anzubieten ist besser belegt; ein spielspezifisches Paket braucht zuerst einen eigenen Test.</span></p></div>
+        </div>
+      </div>
+      <p class="takeaway rv"><span lang="en">The data shows what happens together, not what causes what. Saying that openly makes the analysis trustworthy.</span><span lang="de">Die Daten zeigen, was zusammen auftritt, nicht was was verursacht. Das offen zu sagen, macht die Analyse glaubwürdig.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense tight" data-title="Gaming intelligence" data-de-data-title="Gaming Intelligence">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">09 · Detail · performance by segment</span><span lang="de">09 · Detail · Leistung nach Segment</span></div>
+      <h2 class="rv"><span lang="en">Where the content worked best</span><span lang="de">Wo die Inhalte am besten wirkten</span><span class="accent">.</span></h2>
+      <div class="intel-grid rv">
+        <div class="card explorer" id="explorer" data-view="moment">
+          <div class="seg-tabs" role="group" aria-label="Segment by" data-de-aria-label="Segmentieren nach">
+            <button type="button" class="seg-tab" data-view="moment" aria-pressed="true"><span lang="en">Moment</span><span lang="de">Moment</span></button>
+            <button type="button" class="seg-tab" data-view="game" aria-pressed="false"><span lang="en">Game</span><span lang="de">Spiel</span></button>
+            <button type="button" class="seg-tab" data-view="source" aria-pressed="false"><span lang="en">Who made it</span><span lang="de">Absender</span></button>
+            <button type="button" class="seg-tab" data-view="platform" aria-pressed="false"><span lang="en">Platform</span><span lang="de">Plattform</span></button>
+          </div>
+          <table class="seg-table">
+            <caption class="sr-only"><span lang="en">Performance by segment</span><span lang="de">Performance nach Segment</span></caption>
+            <thead><tr><th scope="col"><span lang="en">Segment</span><span lang="de">Segment</span></th><th scope="col" class="r"><span lang="en">Posts</span><span lang="de">Posts</span></th><th scope="col" class="r"><span lang="en">Views</span><span lang="de">Aufrufe</span></th><th scope="col" class="r"><span lang="en">Click rate</span><span lang="de">Klickrate</span></th><th scope="col" class="r"><span lang="en">Sign-up rate</span><span lang="de">Abschlussrate</span></th><th scope="col" class="bar-col"><span lang="en">Sign-ups per 1,000 views</span><span lang="de">Abschlüsse pro 1.000 Aufrufe</span></th></tr></thead>
+            <tbody id="segBody"></tbody>
+          </table>
+          <p class="seg-note" id="segNote"></p>
+        </div>
+        <figure class="card chart-card scatter-card">
+          <figcaption><span class="num"><span lang="en">Click rate vs sign-up rate · each dot is one post or stream</span><span lang="de">Klickrate vs. Abschlussrate · jeder Punkt ist ein Post oder Stream</span></span></figcaption>
+          <div class="chart" id="chartScatter" role="img" aria-label="Scatter of 32 posts and streams: click rate on the x-axis from 1 to 5 percent, sign-up rate on the y-axis from 2.2 to 3.6 percent. Posts in big match weeks sit in the upper right, posts in normal weeks in the lower left." data-de-aria-label="Streudiagramm mit 32 Posts und Streams: Klickrate auf der x-Achse von 1 bis 5 Prozent, Abschlussrate auf der y-Achse von 2,2 bis 3,6 Prozent. Posts in großen Matchwochen liegen oben rechts, Posts in normalen Wochen unten links."></div>
+          <p class="legend-inline"><span class="dot d-comp"></span><span lang="en">Big match week</span><span lang="de">Große Matchwoche</span> <span class="dot d-on"></span><span lang="en">Normal week</span><span lang="de">Normale Woche</span></p>
+        </figure>
+      </div>
+      <p class="takeaway rv"><span lang="en">Big match weeks bring about twice the sign-ups per view. Creator content does better even in normal weeks.</span><span lang="de">Große Matchwochen bringen etwa doppelt so viele Abschlüsse pro Aufruf. <span class="nw">Creator-Inhalte</span> schneiden sogar in normalen Wochen besser ab.</span></p>
+    </div>
+  </section>
+
+  <section tabindex="-1" class="slide dense tight" data-title="Upsell hypotheses" data-de-data-title="Upsell-Hypothesen">
+    <div class="inner wide">
+      <div class="kicker rv"><span lang="en">10 · Detail · upsell hypotheses</span><span lang="de">10 · Detail · Upsell-Hypothesen</span></div>
+      <h2 class="rv"><span lang="en">Three opportunities. Each needs a test</span><span lang="de">Drei Chancen. Jede braucht einen Test</span><span class="accent">.</span></h2>
+      <div class="hyp rv" id="hyp" data-h="1">
+        <div class="hyp-tabs" role="group" aria-label="Hypotheses (not ranked)" data-de-aria-label="Hypothesen (ohne Rangfolge)">
+          <button type="button" class="hyp-tab" data-h="1" aria-pressed="true"><span class="n">H1</span><span lang="en">Content for one game</span><span lang="de">Inhalte für ein Spiel</span></button>
+          <button type="button" class="hyp-tab" data-h="2" aria-pressed="false"><span class="n">H2</span><span lang="en">Big match moments</span><span lang="de">Große Matchmomente</span></button>
+          <button type="button" class="hyp-tab" data-h="3" aria-pressed="false"><span class="n">H3</span><span lang="en">Creators and players</span><span lang="de">Creator und Spieler</span></button>
+        </div>
+        <div class="hyp-details" aria-live="polite">
+          <div class="hyp-detail" data-for="1">
+            <ol class="chain">
+              <li><b><span lang="en">What we saw</span><span lang="de">Was wir sahen</span></b><span lang="en">VALORANT got 37% of the views but 53% of the sign-ups.</span><span lang="de">VALORANT hatte 37&nbsp;% der Aufrufe, aber 53&nbsp;% der Abschlüsse.</span></li>
+              <li><b><span lang="en">The numbers</span><span lang="de">Die Zahlen</span></b><span lang="en">Sign-up rate 3.3% for VALORANT, 2.7% for the other games.</span><span lang="de">Abschlussrate 3,3&nbsp;% bei VALORANT, 2,7&nbsp;% bei den anderen Spielen.</span></li>
+              <li><b><span lang="en">The idea</span><span lang="de">Die Idee</span></b><span lang="en">Content made for one specific game brings more sign-ups, whatever the moment.</span><span lang="de">Inhalte für ein bestimmtes Spiel bringen mehr Abschlüsse, egal zu welchem Moment.</span></li>
+              <li><b><span lang="en">Fair comparison</span><span lang="de">Fairer Vergleich</span></b><span lang="en">On comparable match days the gap disappears: VALORANT 2.7%, League of Legends 2.8%, CS2 2.6%.</span><span lang="de">An vergleichbaren Matchdays verschwindet der Abstand: VALORANT 2,7&nbsp;%, League of Legends 2,8&nbsp;%, CS2 2,6&nbsp;%.</span></li>
+              <li><b><span lang="en">How to test it</span><span lang="de">So wird getestet</span></b><span lang="en">Four normal weeks, three games, same format, platform and offer, with its own tracking link per game.</span><span lang="de">Vier normale Wochen, drei Spiele, gleiches Format, gleiche Plattform, gleiches Angebot, eigener <span class="nw">Tracking-Link</span> pro Spiel.</span></li>
+              <li><b><span lang="en">It works if</span><span lang="de">Es funktioniert, wenn</span></b><span lang="en">One game beats the others by at least 0.3 percentage points, with 3,000+ clicks per game.</span><span lang="de">Ein Spiel liegt mindestens 0,3 Prozentpunkte vorn, bei über 3.000 Klicks pro Spiel.</span></li>
+              <li class="opp"><b><span lang="en">What we could offer</span><span lang="de">Was wir anbieten könnten</span></b><span lang="en">A season add-on for one game, but only if the test confirms it.</span><span lang="de">Ein <span class="nw">Saison-Add-on</span> für ein Spiel – nur, wenn der Test es bestätigt.</span></li>
+            </ol>
+          </div>
+          <div class="hyp-detail" data-for="2">
+            <ol class="chain">
+              <li><b><span lang="en">What we saw</span><span lang="de">Was wir sahen</span></b><span lang="en">Finals and playoff weeks were the most efficient weeks of the campaign.</span><span lang="de">Finale und Playoffs waren die effizientesten Wochen der Kampagne.</span></li>
+              <li><b><span lang="en">The numbers</span><span lang="de">Die Zahlen</span></b><span lang="en">At the finals, 3.4% of clicks became sign-ups, against 2.5% in normal weeks: about 2.6× the sign-ups per 1,000 views.</span><span lang="de">Im Finale wurden 3,4&nbsp;% der Klicks zu Abschlüssen, in normalen Wochen 2,5&nbsp;%: etwa 2,6-mal so viele Abschlüsse pro 1.000 Aufrufe.</span></li>
+              <li><b><span lang="en">The idea</span><span lang="de">Die Idee</span></b><span lang="en">Big competitive moments are worth more to a sponsor than normal weeks.</span><span lang="de">Große Wettkampfmomente sind für einen Sponsor mehr wert als normale Wochen.</span></li>
+              <li><b><span lang="en">Fair comparison</span><span lang="de">Fairer Vergleich</span></b><span lang="en">It still holds within one game: League of Legends finals 3.3% vs normal weeks 2.6%.</span><span lang="de">Es gilt auch innerhalb eines Spiels: <span class="nw">League-of-Legends-Finale</span> 3,3&nbsp;% vs. normale Wochen 2,6&nbsp;%.</span></li>
+              <li><b><span lang="en">How to test it</span><span lang="de">So wird getestet</span></b><span lang="en">Next season: the same game and format in a normal week, on match day, in the playoffs and at the final.</span><span lang="de">Nächste Saison: gleiches Spiel, gleiches Format in einer normalen Woche, am Matchday, in den Playoffs und im Finale.</span></li>
+              <li><b><span lang="en">It works if</span><span lang="de">Es funktioniert, wenn</span></b><span lang="en">At least 0.4 percentage points more sign-ups and 1.5× the sign-ups per view, in two tournaments in a row.</span><span lang="de">Mindestens 0,4 Prozentpunkte mehr Abschlüsse und 1,5-mal so viele pro Aufruf, in zwei Turnieren hintereinander.</span></li>
+              <li class="opp"><b><span lang="en">What we could offer</span><span lang="de">Was wir anbieten könnten</span></b><span lang="en">An idea: “ExpressVPN Competitive Moments”, extra posts triggered by playoffs and finals. Hypothetical, not a G2 product.</span><span lang="de">Eine Idee: „ExpressVPN Competitive Moments“, zusätzliche Posts rund um Playoffs und Finale. Hypothetisch, kein <span class="nw">G2-Produkt.</span></span></li>
+            </ol>
+          </div>
+          <div class="hyp-detail" data-for="3">
+            <ol class="chain">
+              <li><b><span lang="en">What we saw</span><span lang="de">Was wir sahen</span></b><span lang="en">Creator content brought the most sign-ups; G2’s own team posts came last.</span><span lang="de"><span class="nw">Creator-Inhalte</span> brachten die meisten Abschlüsse; eigene <span class="nw">G2-Team-Posts</span> lagen hinten.</span></li>
+              <li><b><span lang="en">The numbers</span><span lang="de">Die Zahlen</span></b><span lang="en">Sign-up rate: creators 3.1%, players 2.9%, team posts 2.5%. Click rate: 3.6%, 2.7%, 1.9%.</span><span lang="de">Abschlussrate: Creator 3,1&nbsp;%, Spieler 2,9&nbsp;%, <span class="nw">Team-Posts</span> 2,5&nbsp;%. Klickrate: 3,6&nbsp;%, 2,7&nbsp;%, 1,9&nbsp;%.</span></li>
+              <li><b><span lang="en">The idea</span><span lang="de">Die Idee</span></b><span lang="en">Content from creators and players leads to more sign-ups.</span><span lang="de">Inhalte von Creatorn und Spielern führen zu mehr Abschlüssen.</span></li>
+              <li><b><span lang="en">Fair comparison</span><span lang="de">Fairer Vergleich</span></b><span lang="en">Partly true in normal weeks too: click rate 2.8% vs 1.8%, sign-up rate 2.6% vs 2.5%.</span><span lang="de">Auch in normalen Wochen teilweise: Klickrate 2,8&nbsp;% vs. 1,8&nbsp;%, Abschlussrate 2,6&nbsp;% vs. 2,5&nbsp;%.</span></li>
+              <li><b><span lang="en">How to test it</span><span lang="de">So wird getestet</span></b><span lang="en">Normal weeks, one game and one offer: creator stream vs player video vs short clip, rotating the platform.</span><span lang="de">Normale Wochen, ein Spiel, ein Angebot: <span class="nw">Creator-Stream</span> vs. <span class="nw">Spieler-Video</span> vs. kurzer Clip, Plattform im Wechsel.</span></li>
+              <li><b><span lang="en">It works if</span><span lang="de">Es funktioniert, wenn</span></b><span lang="en">Creators get at least 1.5× the click rate and 0.3 points more sign-up rate than team posts.</span><span lang="de">Creator erreichen mindestens die 1,5-fache Klickrate und 0,3 Punkte mehr Abschlussrate als <span class="nw">Team-Posts.</span></span></li>
+              <li class="opp"><b><span lang="en">What we could offer</span><span lang="de">Was wir anbieten könnten</span></b><span lang="en">A creator and player add-on to the base package.</span><span lang="de">Ein <span class="nw">Creator-</span> und <span class="nw">Spieler-Add-on</span> zum Basispaket.</span></li>
+            </ol>
+          </div>
+        </div>
+      </div>
+      <table class="hyp-compare rv">
+        <caption class="sr-only"><span lang="en">Hypothesis comparison, not ranked</span><span lang="de">Hypothesenvergleich, ohne Rangfolge</span></caption>
+        <thead><tr><th scope="col"><span class="sr-only"><span lang="en">Hypothesis</span><span lang="de">Hypothese</span></span></th><th scope="col"><span lang="en">Compared</span><span lang="de">Verglichen</span></th><th scope="col"><span lang="en">Difference in sign-up rate</span><span lang="de">Unterschied in der Abschlussrate</span></th><th scope="col"><span lang="en">How sure</span><span lang="de">Wie sicher</span></th><th scope="col"><span lang="en">The catch</span><span lang="de">Der Haken</span></th></tr></thead>
+        <tbody>
+          <tr><th scope="row">H1</th><td><span lang="en">Other games → VALORANT</span><span lang="de">Andere Spiele → VALORANT</span></td><td><span lang="en">+0.6 points</span><span lang="de">+0,6 Punkte</span></td><td><span class="conf c-lo"><span lang="en">Low</span><span lang="de">Niedrig</span></span></td><td><span lang="en">VALORANT only ran in big match weeks</span><span lang="de">VALORANT lief nur in großen Matchwochen</span></td></tr>
+          <tr><th scope="row">H2</th><td><span lang="en">Normal weeks → finals</span><span lang="de">Normale Wochen → Finale</span></td><td><span lang="en">+0.9 points</span><span lang="de">+0,9 Punkte</span></td><td><span class="conf c-md"><span lang="en">Medium</span><span lang="de">Mittel</span></span></td><td><span lang="en">Only 3 finals posts, mostly by creators</span><span lang="de">Nur 3 <span class="nw">Finals-Posts,</span> meist von Creatorn</span></td></tr>
+          <tr><th scope="row">H3</th><td><span lang="en">Team posts → creators</span><span lang="de"><span class="nw">Team-Posts</span> → Creator</span></td><td><span lang="en">+0.6 points</span><span lang="de">+0,6 Punkte</span></td><td><span class="conf c-ml"><span lang="en">Low to medium</span><span lang="de">Niedrig bis mittel</span></span></td><td><span lang="en">Creators were mostly on Twitch and YouTube, so the platform may explain it</span><span lang="de">Creator liefen meist auf Twitch und YouTube – die Plattform könnte es erklären</span></td></tr>
+        </tbody>
+      </table>
+      <p class="data-note rv"><span class="ev ev-d">Derived</span> <span lang="en">Not ranked: three separate ideas, each needing its own test. A percentage point is the plain difference between two rates, e.g. 2.5% to 3.1% is +0.6 points. None of this proves cause and effect.</span><span lang="de">Ohne Rangfolge: drei getrennte Ideen, jede braucht ihren eigenen Test. Ein Prozentpunkt ist der einfache Abstand zweier Raten, z. B. 2,5&nbsp;% zu 3,1&nbsp;% sind +0,6 Punkte. Nichts davon beweist Ursache und Wirkung.</span></p>
+      <p class="takeaway rv"><span lang="en">Operations produce the data; the data earns the next conversation with ExpressVPN.</span><span lang="de">Das Tagesgeschäft erzeugt die Daten; die Daten verdienen sich das nächste Gespräch mit ExpressVPN.</span></p>
+      <div class="links rv end-links">
+        <a class="chip cv-chip" href="../../#1"><span lang="en">Back to the CV</span><span lang="de">Zurück zum Lebenslauf</span></a>
+        <a class="chip" href="../../#11"><span lang="en">Back to the overview</span><span lang="de">Zurück zur Übersicht</span></a>
+        <a class="chip" href="mailto:in@chrisbalan.com">in@chrisbalan.com</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="hud">
+  <span class="brand" aria-hidden="true">Christian Balan · <span lang="en">G2 Application</span><span lang="de">G2-Bewerbung</span> · <span id="slideTitle"></span></span>
+  <div class="lang-switch" role="group" aria-label="Sprache / Language">
+    <button class="lang-btn" type="button" data-set-lang="de" lang="de" aria-pressed="true" aria-label="Deutsch"><svg class="flag" viewBox="0 0 5 3" aria-hidden="true"><rect width="5" height="1" fill="#000"/><rect y="1" width="5" height="1" fill="#dd0000"/><rect y="2" width="5" height="1" fill="#ffce00"/></svg><span class="code" aria-hidden="true">DE</span></button>
+    <button class="lang-btn" type="button" data-set-lang="en" lang="en" aria-pressed="false" aria-label="English"><svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="uk-clip"><path d="M30,15h30v15zv15H0zH0V0zV0h30z"/></clipPath><path d="M0,0v30h60V0z" fill="#012169"/><path d="M0,0 60,30M60,0 0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 60,30M60,0 0,30" clip-path="url(#uk-clip)" stroke="#c8102e" stroke-width="4"/><path d="M30,0v30M0,15h60" stroke="#fff" stroke-width="10"/><path d="M30,0v30M0,15h60" stroke="#c8102e" stroke-width="6"/></svg><span class="code" aria-hidden="true">EN</span></button>
+  </div>
+  <nav class="crumbs" aria-label="Site" data-de-aria-label="Website">
+    <a class="crumb" href="../../#11"><span aria-hidden="true">←</span> <span class="crumb-label"><span lang="en">Overview</span><span lang="de">Übersicht</span></span></a>
+    <a class="crumb" href="../../#1">CV</a>
+  </nav>
+  <nav class="nav" aria-label="Slides" data-de-aria-label="Folien">
+    <div class="dots" id="dots"></div>
+    <button class="icon-btn" type="button" id="prev" aria-label="Previous slide" data-de-aria-label="Vorherige Folie">‹</button>
+    <span class="counter" id="counter" aria-hidden="true">1 / 10</span>
+    <button class="icon-btn" type="button" id="next" aria-label="Next slide" data-de-aria-label="Nächste Folie">›</button>
+  </nav>
+  <div class="sr-only" id="announcer" aria-live="polite" aria-atomic="true"></div>
+</footer>
+
+<script src="xvpn.js"></script>
+</body>
+</html>

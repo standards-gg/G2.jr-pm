@@ -1,0 +1,8 @@
+/* Loaded only when JavaScript is off (see <noscript> in index.html): show every slide stacked. */
+body { overflow: auto; }
+.deck { height: auto; overflow: visible; }
+.slide { position: relative; min-height: 100vh; opacity: 1; visibility: visible; transform: none; overflow: visible; }
+.rv { opacity: 1; transform: none; }
+.hud, .progress { display: none; }
+/* intro menus: list the references and demos directly */
+.menu-list { position: static; display: block; }

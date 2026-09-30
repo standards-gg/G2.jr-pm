@@ -1,0 +1,4 @@
+/* Loaded only when JavaScript is off (after css/no-js.css): show every detail of the two diagrams. */
+.venn-detail, .flow-detail { display: block; }
+.venn-detail + .venn-detail, .flow-detail + .flow-detail { margin-top: 10px; }
+.venn-keys, .wave { pointer-events: none; }

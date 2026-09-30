@@ -1,0 +1,42 @@
+/* =========================================================================
+   Shared by every project page in projects/<name>/ (after css/deck.css):
+   bottom bar with site links, the one-line takeaway and the disclaimer line.
+   ========================================================================= */
+
+/* ---------- HUD: slide title on the left; site links and slide controls on the right ---------- */
+.crumbs { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.crumb {
+  flex: none; padding: 6px 10px; border: 1px solid var(--line); border-radius: var(--radius-sm); background: var(--surface);
+  color: var(--text); text-decoration: none; letter-spacing: .08em; text-transform: uppercase; transition: border-color .2s;
+}
+.crumb:hover { border-color: var(--accent); }
+/* the slide title stays on the left; language, then the site links, then the slide controls sit on the right */
+.hud > .lang-switch { margin-left: auto; }
+/* bottom left: who and what, like the CV; never runs into the slide dots in the centre */
+.hud > .brand { max-width: calc(50% - 120px); }
+
+/* ---------- shared: one-line conclusion under a slide ---------- */
+.takeaway {
+  margin-top: 20px; padding-left: 14px; border-left: 3px solid var(--accent);
+  font-family: var(--font-display); font-size: clamp(1.15rem, 1.8vw, 1.45rem); font-weight: 700; line-height: 1.15;
+  text-transform: uppercase; letter-spacing: .01em;
+}
+/* ---------- disclaimer line ---------- */
+.disclaimer { max-width: 1180px; width: 100%; margin: 18px auto 0; color: var(--muted); font-size: .76rem; line-height: 1.45; opacity: .85; }
+
+/* tab-like selectors (data-select): the panels a selector manages (.sel-panel, set by js/project.js) hide unless active */
+.js .sel-panel:not(.is-active) { display: none; }
+
+@media (min-width: 861px) and (max-height: 820px) {
+  .takeaway { margin-top: 14px; }
+}
+@media (max-width: 860px) {
+  .hud > .brand { display: none; }
+  .crumb { padding: 6px 8px; }
+}
+@media (max-width: 420px) {
+  .hud { gap: 8px; }
+  .nav { gap: 6px; }
+  /* phones: the overview link shrinks to its arrow; the label stays for screen readers */
+  .crumb-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
+}

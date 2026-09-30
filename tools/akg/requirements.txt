@@ -1,0 +1,7 @@
+numpy>=2.0
+pandas>=2.2
+statsmodels>=0.14
+matplotlib>=3.9
+seaborn>=0.13
+fonttools>=4.50
+brotli>=1.1

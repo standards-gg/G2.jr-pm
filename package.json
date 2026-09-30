@@ -1,0 +1,15 @@
+{
+  "name": "g2-jr-pm",
+  "private": true,
+  "description": "Interactive CV slide deck (static site). Dev tooling only: the site itself has no dependencies or build step.",
+  "scripts": {
+    "start": "node -e \"require('./tests/server').start(8080).then(() => console.log('http://127.0.0.1:8080'))\"",
+    "test": "node tests/run.js",
+    "build:cv": "node tools/build-cv.js"
+  },
+  "devDependencies": {
+    "axe-core": "^4.10.0",
+    "html-validate": "^9.0.0",
+    "playwright": "^1.56.0"
+  }
+}

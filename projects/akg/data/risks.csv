@@ -1,0 +1,7 @@
+id,risk_en,risk_de,probability,impact,score,owner,week,identified,resolved,resolution_bdays,materialised,resolved_week
+R1,Delayed creative feedback on the hero video,Verzögertes Creative-Feedback zum Hero-Video,3,4,12,Me,3,19.05.2026,27.05.2026,6,True,4
+R2,Creator scheduling conflict (tournament travel),Terminkonflikt Creator (Turnierreise),3,3,9,Creator Manager,2,12.05.2026,22.05.2026,8,True,3
+R3,Product shipment delay for the photo shoot,Lieferverzug der Produkte fürs Fotoshooting,2,3,6,Me,1,05.05.2026,18.05.2026,9,True,3
+R4,Legal approval dependency: giveaway T&Cs,Rechtliche Freigabe: Gewinnspiel-Teilnahmebedingungen,3,4,12,G2 Legal Counsel,1,05.05.2026,11.05.2026,4,False,2
+R5,Conflicting campaign deadlines on match weekend,Kollidierende Kampagnen-Deadlines am Matchwochenende,3,2,6,Social Media Manager,3,19.05.2026,21.05.2026,2,False,3
+R6,Revision loop on creator video #2 (product claims),Revisionsschleife Creator-Video #2 (Produktclaims),4,3,12,Video Producer,4,26.05.2026,02.06.2026,5,True,5

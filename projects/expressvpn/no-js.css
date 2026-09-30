@@ -1,0 +1,6 @@
+/* Loaded only when JavaScript is off (after css/no-js.css): show every pillar, EDA step and hypothesis. */
+.pillar-detail { display: grid; }
+.flow-detail, .hyp-detail { display: block; }
+.pillar-detail + .pillar-detail, .flow-detail + .flow-detail, .hyp-detail + .hyp-detail { margin-top: 10px; }
+.ops-bars .b { transform: none; }
+.seg-tabs, .explorer .seg-table { display: none; }

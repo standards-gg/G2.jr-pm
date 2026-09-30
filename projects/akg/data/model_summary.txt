@@ -1,0 +1,109 @@
+AKG x G2 (fictional case study) - week-5 models, fitted on weeks 1-5 of the simulated asset-week panel.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                log_eng   R-squared:                       0.994
+Model:                            OLS   Adj. R-squared:                  0.993
+Method:                 Least Squares   F-statistic:                     1394.
+Date:                Tue, 29 Sep 2026   Prob (F-statistic):           9.73e-44
+Time:                        20:41:08   Log-Likelihood:                 35.580
+No. Observations:                  46   AIC:                            -59.16
+Df Residuals:                      40   BIC:                            -48.19
+Df Model:                           5                                         
+Covariance Type:                  HC1                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+Intercept      -4.2899      0.543     -7.898      0.000      -5.354      -3.225
+log_impr        1.0459      0.050     20.911      0.000       0.948       1.144
+creator_led     0.3758      0.049      7.617      0.000       0.279       0.472
+video           0.5773      0.079      7.333      0.000       0.423       0.732
+boosted         0.1636      0.073      2.247      0.025       0.021       0.306
+age            -0.0317      0.029     -1.095      0.273      -0.088       0.025
+==============================================================================
+Omnibus:                        3.965   Durbin-Watson:                   1.381
+Prob(Omnibus):                  0.138   Jarque-Bera (JB):                3.903
+Skew:                           0.098   Prob(JB):                        0.142
+Kurtosis:                       4.413   Cond. No.                         327.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC1)
+
+                 Generalized Linear Model Regression Results                  
+==============================================================================
+Dep. Variable:           ['y1', 'y2']   No. Observations:                   46
+Model:                            GLM   Df Residuals:                       41
+Model Family:                Binomial   Df Model:                            4
+Link Function:                  Logit   Scale:                          15.219
+Method:                          IRLS   Log-Likelihood:                -494.77
+Date:                Tue, 29 Sep 2026   Deviance:                       639.77
+Time:                        20:41:08   Pearson chi2:                     624.
+No. Iterations:                     8   Pseudo R-squ. (CS):              1.000
+Covariance Type:            nonrobust                                         
+===============================================================================
+                  coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------
+const          -5.1700      0.050   -102.394      0.000      -5.269      -5.071
+creator_led     0.5131      0.069      7.487      0.000       0.379       0.647
+video           0.4705      0.067      6.993      0.000       0.339       0.602
+boosted        -0.0679      0.066     -1.030      0.303      -0.197       0.061
+age            -0.1247      0.032     -3.843      0.000      -0.188      -0.061
+===============================================================================
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                 log_rr   R-squared:                       0.835
+Model:                            OLS   Adj. R-squared:                  0.827
+Method:                 Least Squares   F-statistic:                     108.8
+Date:                Tue, 29 Sep 2026   Prob (F-statistic):           1.49e-17
+Time:                        20:41:08   Log-Likelihood:                 75.490
+No. Observations:                  46   AIC:                            -145.0
+Df Residuals:                      43   BIC:                            -139.5
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -1.0712      0.030    -35.580      0.000      -1.132      -1.011
+week          -0.1052      0.007    -14.346      0.000      -0.120      -0.090
+boosted        0.1026      0.023      4.455      0.000       0.056       0.149
+==============================================================================
+Omnibus:                        2.314   Durbin-Watson:                   1.931
+Prob(Omnibus):                  0.314   Jarque-Bera (JB):                1.567
+Skew:                           0.440   Prob(JB):                        0.457
+Kurtosis:                       3.205   Cond. No.                         18.3
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                logit_c   R-squared:                       0.963
+Model:                            OLS   Adj. R-squared:                  0.944
+Method:                 Least Squares   F-statistic:                     51.46
+Date:                Tue, 29 Sep 2026   Prob (F-statistic):           8.20e-07
+Time:                        20:41:08   Log-Likelihood:                 14.731
+No. Observations:                  16   AIC:                            -17.46
+Df Residuals:                      10   BIC:                            -12.83
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       -0.5045      0.119     -4.246      0.002      -0.769      -0.240
+C(fmt)[T.HV]     0.6935      0.148      4.699      0.001       0.365       1.022
+C(fmt)[T.LS]     0.4163      0.093      4.452      0.001       0.208       0.625
+C(fmt)[T.SF]     1.2381      0.083     14.878      0.000       1.053       1.424
+creator_led      0.2497      0.105      2.383      0.038       0.016       0.483
+age             -0.1100      0.034     -3.196      0.010      -0.187      -0.033
+==============================================================================
+Omnibus:                        3.091   Durbin-Watson:                   2.957
+Prob(Omnibus):                  0.213   Jarque-Bera (JB):                1.063
+Skew:                           0.416   Prob(JB):                        0.588
+Kurtosis:                       3.950   Cond. No.                         11.9
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

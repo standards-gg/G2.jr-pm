@@ -1,0 +1,3 @@
+/* Loaded only when JavaScript is off (after css/no-js.css): every tab panel is shown, one after the other. */
+.tab-bar { display: none; }
+.tab-panel + .tab-panel { margin-top: 18px; }

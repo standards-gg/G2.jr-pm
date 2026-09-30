@@ -1,0 +1,9 @@
+node_modules/
+test-results/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.venv/
+__pycache__/
